@@ -1,0 +1,62 @@
+.ChangeForm {
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  padding: 1rem;
+  color: black;
+  position: fixed;
+  min-width: 40rem;
+  border-radius: 5px;
+  background-color: #fff;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+}
+
+.Textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  min-height: 10rem;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #fff;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.backdrop {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.close {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+}
+
+.ChangeForm input,
+.ChangeForm textarea {
+  margin-bottom: 0.5rem;
+  border: 1px solid #cddbe0;
+}

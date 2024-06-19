@@ -1,0 +1,26 @@
+.Category {
+  padding: 0.5rem;
+  background: #ebecf0;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.Category ul {
+  margin-bottom: 0.5rem;
+}
+
+.Category form {
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Category {
+    height: auto;
+  }
+}

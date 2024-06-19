@@ -1,0 +1,49 @@
+.Task {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+}
+
+.wrapper {
+  padding: 1rem;
+  border-radius: 5px;
+  background: #FFFFFF;
+  flex-grow: 1;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+
+.title {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.close {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+.description {
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .Task {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,26 @@
+.Header {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #0067a3;
+}
+
+.HeaderText {
+  color: #FFFFFF;
+  font-size: 28px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .Header {
+    background: none;
+    justify-content: end;
+  }
+
+  .HeaderText {
+    display: none;
+  }
+}

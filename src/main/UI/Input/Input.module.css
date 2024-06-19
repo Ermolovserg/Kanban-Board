@@ -1,0 +1,19 @@
+.Input {
+  width: 100%;
+  height: 2.25rem;
+  padding: 0.5rem;
+  display: block;
+  border: none;
+  max-width: 100%;
+  font-size: inherit;
+  border-radius: 5px;
+  font-family: inherit;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.Input::placeholder {
+  font-size: inherit;
+  font-family: inherit;
+  color: #aaa;
+}

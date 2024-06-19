@@ -1,0 +1,57 @@
+.Button {
+  border: none;
+  height: 2.25rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: inherit;
+  border-radius: 5px;
+  align-items: center;
+  display: inline-flex;
+  font-family: inherit;
+  justify-content: center;
+  background-color: transparent;
+  transition: background-color 0.25s ease;
+}
+
+.Button:hover:not(:disabled),
+.Button:focus:not(:disabled),
+.Button:active:not(:disabled) {
+  background-color: #fff;
+}
+
+.Button:disabled {
+ cursor: default;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.primary {
+  color: #fff;
+  background-color: #0079bf;
+}
+
+.light {
+  background: #dfeaee;
+  color: #0079bf;
+  width: 150px;
+}
+
+.light:hover:not(:disabled),
+.light:focus:not(:disabled),
+.light:active:not(:disabled) {
+  background-color: #b9dae6;
+}
+
+.white:hover:not(:disabled),
+.white:focus:not(:disabled),
+.white:active:not(:disabled) {
+  background-color: #dfdfdf;
+}
+
+.primary:hover:not(:disabled),
+.primary:focus:not(:disabled),
+.primary:active:not(:disabled) {
+  background-color: #0096ec;
+}
