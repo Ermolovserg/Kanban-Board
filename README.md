@@ -12,5 +12,5 @@
 
  **Клонирование репозитория:**
 
-   git clone https://github.com/ermolovserg/kanban-project.git
+   git clone https://github.com/Ermolovserg/Kanban-Board
    cd kanban-project
